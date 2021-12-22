@@ -8,7 +8,7 @@ cd 3rdparty
 echo "--> nodejs / http-parser"
 if [ -e http-parser ]; then
     cd http-parser
-    git pull --no-rebase origin master
+    git pull --no-rebase origin main
 else
     git clone https://github.com/nodejs/http-parser.git
 fi
